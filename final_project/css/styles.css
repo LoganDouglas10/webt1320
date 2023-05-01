@@ -1,0 +1,178 @@
+body {
+    background-color: #86878B;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+#container {
+    background-color: #F2F2F2;
+}
+
+nav {
+    background-color: #FF8200;
+    padding: 2px 0;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: block;
+    border-bottom: 2px solid #FF8200;
+}
+
+nav li a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    background-color: #86878B;
+    color: #FF8200;
+    text-decoration: none;
+    font-size: 1.3em;
+    padding: 5px 0;
+}
+
+nav li a:hover {
+    background-color: white;
+    color: #FF8200;
+    border-color: black;
+}
+
+main{
+    padding: 20px;
+}
+
+.col {
+    padding: 10px;
+    border-top: 2px solid #FF8200;
+}
+
+footer{
+    background-color: #FF8200;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.button a {
+    display: block;
+    width: 100px;
+    height: 20px;
+    line-height: 10px;
+    background-color: white;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 4px solid #FF8200;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #FF8200;
+    border-color: white;
+}
+
+table {
+    border: #FF8200;
+
+}
+
+tr, td {
+    border: 4px solid #FF8200;
+}
+
+@media (min-width: 768px) {
+    nav li {
+        display: inline-block;
+        border: 0;
+    }
+
+    nav li a {
+        width: 175px;
+        margin: 0 5px;
+        border-radius: 10px;
+        border: 2px solid #86878B;
+    }
+
+    main {
+        display: flex;
+    }
+
+    section, aside {
+        padding: 10px;
+        margin: 10px;
+        border: 2px solid #FF8200;
+        border-radius: 10px;
+    }
+
+    section {
+        width: 70%;
+    }
+
+    aside {
+        width: 30%;
+    }
+
+    .col img {
+        width: 70%;
+    }
+
+    .button {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .single_page {
+        width: 100%;
+    }
+
+    table img {
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    #container {
+        width: 65%;
+        margin: 20px auto;
+    }
+    
+    nav li a {
+        background-color: #86878B;
+        border: 0;
+    }
+
+    #lower_area {
+        display: flex;
+    }
+
+    .col {
+        border: 2px solid #FF8200;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+
+    .single_page {
+        width: 100%;
+    }
+
+    section img {
+        width: 50%;
+    }
+}
